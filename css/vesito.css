@@ -959,6 +959,10 @@ strong {
   padding: 200px 3% 130px;
 }
 
+.section-large.top-contained {
+  padding-top: 130px;
+}
+
 .collection-item-services {
   margin-bottom: 72px;
 }
@@ -1057,7 +1061,7 @@ strong {
 }
 
 .service-icon {
-  width: 31px;
+  width: 30px;
 }
 
 .privacy-policy-wrapper {
@@ -1600,6 +1604,10 @@ strong {
   .contact-grid {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+
+  .section-large.top-contained {
+    padding-top: 100px;
   }
 
   .paragraph-large.white.hero {
