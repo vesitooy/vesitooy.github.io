@@ -232,14 +232,14 @@ strong {
   max-width: 45%;
 }
 
-.container {
+.container-default {
   width: 100%;
   max-width: 1160px;
   margin-right: auto;
   margin-left: auto;
 }
 
-.container.cta {
+.container-default.cta {
   display: flex;
   justify-content: space-between;
 }
@@ -397,7 +397,7 @@ strong {
   display: none;
 }
 
-.title {
+.subtitle-default {
   margin-bottom: 32px;
   line-height: 24px;
   font-weight: 400;
@@ -527,7 +527,7 @@ strong {
   font-weight: 400;
 }
 
-.statistic {
+.about-contact {
   font-size: 20px;
   line-height: 46px;
   font-weight: 700;
@@ -544,7 +544,7 @@ strong {
   line-height: 42px;
 }
 
-.stats-grid {
+.about-contact-grid {
   display: flex;
   max-width: 560px;
   margin-top: 32px;
@@ -558,18 +558,18 @@ strong {
   padding: 92px 3%;
 }
 
-.statistic-title {
+.about-contact-title {
   color: #96a0b5;
   font-size: 16px;
   line-height: 30px;
   font-weight: 600;
 }
 
-.statistics-wrap {
+.about-title-wrapper {
   max-width: 550px;
 }
 
-.statistics-grid {
+.about-grid {
   grid-column-gap: 52px;
   -ms-grid-columns: 1fr 0.75fr;
   grid-template-columns: 1fr 0.75fr;
@@ -729,7 +729,7 @@ strong {
   opacity: 0.8;
 }
 
-.service-section-grey {
+.section-grey {
   overflow: hidden;
   padding: 100px 3%;
   background-color: #f8fafb;
@@ -1466,7 +1466,7 @@ strong {
   text-align: center;
 }
 
-.link-block {
+.about-contact-link {
   color: #171717;
   text-decoration: none;
 }
@@ -1545,7 +1545,7 @@ strong {
     grid-template-rows: auto auto auto;
   }
 
-  .statistics-grid {
+  .about-grid {
     grid-row-gap: 42px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -1725,7 +1725,7 @@ strong {
     padding-left: 30px;
   }
 
-  .container.cta {
+  .container-default.cta {
     flex-direction: column;
     align-items: center;
   }
@@ -1934,7 +1934,7 @@ strong {
     height: 350px;
   }
 
-  .container.cta {
+  .container-default.cta {
     align-items: flex-start;
     text-align: left;
   }
@@ -2003,6 +2003,10 @@ strong {
     flex-direction: column;
   }
 
+  .about-contact {
+    font-size: 18px;
+  }
+
   .content-section {
     padding: 72px 5%;
   }
@@ -2049,7 +2053,7 @@ strong {
     flex-wrap: wrap;
   }
 
-  .service-section-grey {
+  .section-grey {
     padding-right: 5%;
     padding-left: 5%;
   }
