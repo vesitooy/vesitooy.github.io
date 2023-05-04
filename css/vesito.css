@@ -1437,6 +1437,11 @@ strong {
   font-size: 14px;
 }
 
+.luotettava-kumppani-logo {
+  width: 140px;
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-line {
     max-width: 100%;
@@ -1972,7 +1977,7 @@ strong {
     max-width: none;
     text-align: center;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .footer-section {
@@ -2169,6 +2174,10 @@ strong {
     text-align: center;
     margin-top: 14px;
     padding-left: 0;
+  }
+
+  .luotettava-kumppani-logo {
+    margin-top: 40px;
   }
 }
 
