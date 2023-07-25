@@ -872,6 +872,10 @@ strong {
   font-weight: 600;
 }
 
+.text-detail {
+  line-height: 28px;
+}
+
 .gallery-grid {
   width: 80%;
   grid-column-gap: 32px;
