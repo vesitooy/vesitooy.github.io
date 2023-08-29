@@ -1,46 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
-<url>
-  <loc>https://www.vesito.fi/</loc>
-  <lastmod>2023-05-04T06:32:36+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.vesito.fi/sisailmakorjaukset</loc>
-  <lastmod>2023-05-04T06:32:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vesito.fi/erikoispuhdistukset</loc>
-  <lastmod>2023-05-04T06:32:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vesito.fi/tuholaistorjunta</loc>
-  <lastmod>2023-05-04T06:32:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vesito.fi/meista</loc>
-  <lastmod>2023-05-04T06:32:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vesito.fi/galleria</loc>
-  <lastmod>2023-05-04T06:32:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vesito.fi/ota-yhteytta</loc>
-  <lastmod>2023-05-04T06:32:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>https://www.vesito.fi/</loc>
+        <priority>1.00</priority>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://www.vesito.fi/"/>
+    </url>
+    <url>
+        <loc>https://www.vesito.fi/sisailmakorjaukset</loc>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://www.vesito.fi/sisailmakorjaukset"/>
+    </url>
+    <url>
+        <loc>https://www.vesito.fi/erikoispuhdistus</loc>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://www.vesito.fi/erikoispuhdistus"/>
+    </url>
+    <url>
+        <loc>https://www.vesito.fi/tuholaistorjunta</loc>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://www.vesito.fi/tuholaistorjunta"/>
+    </url>
+    <url>
+        <loc>https://www.vesito.fi/ota-yhteytta</loc>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://www.vesito.fi/ota-yhteytta"/>
+    </url>
 </urlset>
