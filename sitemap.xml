@@ -25,6 +25,11 @@
         <xhtml:link rel="alternate" hreflang="fi" href="https://www.vesito.fi/tuholaistorjunta"/>
     </url>
     <url>
+        <loc>https://www.vesito.fi/sisailman-toksisuusmittaus</loc>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://www.vesito.fi/sisailman-toksisuusmittaus"/>
+    </url>
+    <url>
         <loc>https://www.vesito.fi/ota-yhteytta</loc>
         <priority>0.80</priority>
         <xhtml:link rel="alternate" hreflang="fi" href="https://www.vesito.fi/ota-yhteytta"/>

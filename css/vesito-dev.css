@@ -1,3 +1,10 @@
+:root {
+  --black-text: #171717;
+  --white: white;
+  --accent: #48a16d;
+  --white-smoke: #f7f7f7;
+}
+
 .w-layout-grid {
   grid-row-gap: 16px;
   grid-column-gap: 16px;
@@ -8,7 +15,7 @@
 }
 
 body {
-  color: #171717;
+  color: var(--black-text);
   font-family: DM Sans, sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -16,7 +23,7 @@ body {
 }
 
 h1 {
-  color: #fff;
+  color: var(--white);
   margin-top: 24px;
   margin-bottom: 32px;
   font-size: 48px;
@@ -74,7 +81,7 @@ strong {
 }
 
 .button {
-  background-color: #48a16d;
+  background-color: var(--accent);
   border-radius: 3px;
   margin-bottom: 0;
   padding: 16px 40px;
@@ -110,19 +117,19 @@ strong {
 }
 
 .button.white:hover {
+  background-color: var(--accent);
   color: #fff;
-  background-color: #48a16d;
 }
 
 .button.black {
-  color: #fff;
-  background-color: #171717;
+  background-color: var(--black-text);
+  color: var(--white);
   text-decoration: none;
 }
 
 .button.black:hover {
-  color: #171717;
-  background-color: #fff;
+  background-color: var(--white);
+  color: var(--black-text);
 }
 
 .nav-cta {
@@ -132,7 +139,8 @@ strong {
 
 .nav-link {
   color: #fff;
-  padding: 12px;
+  letter-spacing: -.4px;
+  padding: 12px 10px;
 }
 
 .nav-link:hover {
@@ -144,7 +152,7 @@ strong {
 }
 
 .nav-link.dark {
-  color: #171717;
+  color: var(--black-text);
 }
 
 .brand {
@@ -293,7 +301,7 @@ strong {
 }
 
 .section.accent-bg {
-  background-color: #48a16d;
+  background-color: var(--accent);
 }
 
 .section.accent-bg.padding-medium {
@@ -303,11 +311,11 @@ strong {
 }
 
 .section.accent-bg.padding-medium.white-smoke-bg {
-  background-color: #f7f7f7;
+  background-color: var(--white-smoke);
 }
 
 .section.primary-bg {
-  background-color: #48a16d;
+  background-color: var(--accent);
 }
 
 .section.primary-bg.padding-medium {
@@ -333,7 +341,7 @@ strong {
 }
 
 .section.black-bg.footer {
-  background-color: #171717;
+  background-color: var(--black-text);
   grid-template-columns: 1fr 1fr 1fr;
   padding-top: 80px;
   padding-bottom: 34px;
@@ -360,6 +368,13 @@ strong {
 .section.inner.tuholaistorjunta {
   background-image: linear-gradient(rgba(0, 0, 0, .24), rgba(0, 0, 0, .24)), url('../images/Tuholaistorjunta.jpg');
   background-position: 0 0, 50% 46%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
+.section.inner.sis-ilman-toksisuusmittaus {
+  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('../images/Mittauslaite_huurteessa.webp');
+  background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
 }
@@ -445,7 +460,7 @@ strong {
 }
 
 .white-service {
-  color: #171717;
+  color: var(--black-text);
   text-align: center;
   background-color: #fff;
   border-radius: 3px;
@@ -487,7 +502,7 @@ strong {
 .heading-line {
   width: 80px;
   height: 2px;
-  background-color: #48a16d;
+  background-color: var(--accent);
   margin-top: -8px;
 }
 
@@ -504,7 +519,7 @@ strong {
 }
 
 .arrow-link {
-  color: #171717;
+  color: var(--black-text);
   align-items: center;
   font-size: 14px;
   text-decoration: none;
@@ -535,7 +550,7 @@ strong {
 .testimonial-right-arrow {
   width: 56px;
   height: 56px;
-  border: 3px solid #48a16d;
+  border: 3px solid var(--accent);
   border-radius: 50%;
   justify-content: center;
   align-items: center;
@@ -581,7 +596,7 @@ strong {
 .testimonial-left-arrow {
   width: 56px;
   height: 56px;
-  border: 3px solid #48a16d;
+  border: 3px solid var(--accent);
   border-radius: 50%;
   justify-content: center;
   align-items: center;
@@ -676,7 +691,7 @@ strong {
 }
 
 .button-2.subscribe {
-  background-color: #48a16d;
+  background-color: var(--accent);
   padding: 12px 24px;
 }
 
@@ -693,7 +708,7 @@ strong {
 }
 
 .footer-subscribe-text {
-  color: #f7f7f7;
+  color: var(--white-smoke);
   margin-top: 36px;
   margin-bottom: 24px;
   font-size: 15px;
@@ -756,11 +771,11 @@ strong {
 }
 
 .footer-text {
-  color: #fff;
+  color: var(--white);
 }
 
 .footer-link {
-  color: #f7f7f7;
+  color: var(--white-smoke);
   margin-bottom: 20px;
   text-decoration: none;
   transition: color .15s;
@@ -783,7 +798,7 @@ strong {
 }
 
 .social-page {
-  color: #fff;
+  color: var(--white);
   margin-top: 8px;
   margin-bottom: 8px;
   margin-left: 40px;
@@ -810,7 +825,7 @@ strong {
 }
 
 .bottom-link {
-  color: #f7f7f7;
+  color: var(--white-smoke);
   margin-bottom: 20px;
   text-decoration: underline;
   transition: color .15s;
@@ -829,7 +844,7 @@ strong {
 }
 
 .project-category {
-  color: #48a16d;
+  color: var(--accent);
 }
 
 .project {
@@ -900,7 +915,7 @@ strong {
 .heading-line-default {
   width: 80px;
   height: 2px;
-  background-color: #48a16d;
+  background-color: var(--accent);
   margin-top: -8px;
 }
 
@@ -1001,6 +1016,10 @@ strong {
   background-image: url('../images/Talvikunnossapito.webp');
 }
 
+.service-image.sis-ilman-toksisuusmittaus {
+  background-image: url('../images/Mittauslaite_huurteessa.webp');
+}
+
 .empty-collection {
   text-align: center;
   background-color: #eef1f3;
@@ -1037,7 +1056,7 @@ strong {
 }
 
 .service-grid.spacing-small {
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .arrow-link-3 {
@@ -1163,7 +1182,7 @@ strong {
 }
 
 .legal-rich-text-block h1 {
-  color: #171717;
+  color: var(--black-text);
   font-size: 36px;
   line-height: 1.4;
 }
@@ -1198,7 +1217,12 @@ strong {
 }
 
 .service-rich-text li {
-  margin-bottom: 4px;
+  color: rgba(28, 26, 23, .75);
+  margin-bottom: 8px;
+}
+
+.service-rich-text strong {
+  color: var(--black-text);
 }
 
 .div-block-2 {
@@ -1232,7 +1256,7 @@ strong {
 }
 
 .category-link.w--current {
-  color: #48a16d;
+  color: var(--accent);
   font-weight: 600;
 }
 
@@ -1244,7 +1268,7 @@ strong {
 
 .service-line {
   height: 2px;
-  background-color: #48a16d;
+  background-color: var(--accent);
   margin-bottom: 24px;
 }
 
@@ -1269,7 +1293,7 @@ strong {
 .cta-grid {
   grid-column-gap: 40px;
   grid-row-gap: 0px;
-  background-color: #f7f7f7;
+  background-color: var(--white-smoke);
   grid-template-rows: auto;
   padding: 66px 8% 74px;
 }
@@ -1310,10 +1334,10 @@ strong {
 .button-primary-left-icon {
   grid-column-gap: 8px;
   grid-row-gap: 8px;
+  background-color: var(--accent);
   color: #fff;
   text-align: center;
   letter-spacing: -.02em;
-  background-color: #48a16d;
   border-radius: 3px;
   flex-direction: row;
   justify-content: center;
@@ -1454,7 +1478,7 @@ strong {
 }
 
 .contact-wrapper {
-  color: #171717;
+  color: var(--black-text);
   text-align: center;
   flex-direction: column;
   align-items: center;
@@ -2195,7 +2219,7 @@ strong {
   justify-self: end;
 }
 
-#w-node-_57b74c94-eaa0-188e-a8fd-365de7a3968f-e7a3968e, #w-node-_57b74c94-eaa0-188e-a8fd-365de7a3969c-e7a3968e, #w-node-_57b74c94-eaa0-188e-a8fd-365de7a396a9-e7a3968e {
+#w-node-_57b74c94-eaa0-188e-a8fd-365de7a3968f-e7a3968e, #w-node-_57b74c94-eaa0-188e-a8fd-365de7a3969c-e7a3968e, #w-node-_57b74c94-eaa0-188e-a8fd-365de7a396a9-e7a3968e, #w-node-_1219d3a2-6615-05ba-2cf8-b1344388cf9a-e7a3968e {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
