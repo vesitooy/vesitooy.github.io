@@ -1508,10 +1508,21 @@ strong {
   position: absolute;
 }
 
+.video {
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
 @media screen and (min-width: 1440px) {
   .hero-wrapper {
     padding-top: 90px;
     padding-bottom: 180px;
+  }
+
+  .video {
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 }
 
