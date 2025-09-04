@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<ns0:urlset xmlns:html="http://www.w3.org/1999/xhtml" xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<ns0:urlset xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <ns0:url>
         <ns0:loc>https://www.vesito.fi/</ns0:loc>
         <ns0:priority>1.00</ns0:priority>
@@ -8,7 +11,8 @@
     <ns0:url>
         <ns0:loc>https://www.vesito.fi/vahinko-ja-vauriosaneeraus</ns0:loc>
         <ns0:priority>0.80</ns0:priority>
-        <html:link rel="alternate" hreflang="fi" href="https://www.vesito.fi/vahinko-ja-vauriosaneeraus" />
+        <html:link rel="alternate" hreflang="fi"
+            href="https://www.vesito.fi/vahinko-ja-vauriosaneeraus" />
     </ns0:url>
     <ns0:url>
         <ns0:loc>https://www.vesito.fi/erikoispuhdistus</ns0:loc>
@@ -23,7 +27,13 @@
     <ns0:url>
         <ns0:loc>https://www.vesito.fi/sisailman-toksisuusmittaus</ns0:loc>
         <ns0:priority>0.80</ns0:priority>
-        <html:link rel="alternate" hreflang="fi" href="https://www.vesito.fi/sisailman-toksisuusmittaus" />
+        <html:link rel="alternate" hreflang="fi"
+            href="https://www.vesito.fi/sisailman-toksisuusmittaus" />
+    </ns0:url>
+    <ns0:url>
+        <ns0:loc>https://www.vesito.fi/homepolysiivous</ns0:loc>
+        <ns0:priority>0.80</ns0:priority>
+        <html:link rel="alternate" hreflang="fi" href="https://www.vesito.fi/homepolysiivous" />
     </ns0:url>
     <ns0:url>
         <ns0:loc>https://www.vesito.fi/ota-yhteytta</ns0:loc>

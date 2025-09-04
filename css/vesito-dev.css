@@ -379,6 +379,13 @@ strong {
   background-size: auto, cover;
 }
 
+.section.inner.homep-lysiivous {
+  background-image: linear-gradient(#00000080, #00000080), url('../images/Tehopuhdistus.webp');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
 .empty-cart {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -703,8 +710,8 @@ strong {
 
 .footer-subscribe-text {
   color: var(--white-smoke);
-  margin-top: 36px;
-  margin-bottom: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 15px;
   line-height: 26px;
 }
@@ -1044,7 +1051,7 @@ strong {
 }
 
 .service-grid.spacing-small {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .arrow-link-3 {
@@ -1428,6 +1435,10 @@ strong {
   height: 100px;
 }
 
+.space._10 {
+  height: 10px;
+}
+
 .contact-icon-home {
   width: 28px;
   margin-bottom: 8px;
@@ -1517,6 +1528,10 @@ strong {
 .text-block-extra-small {
   font-size: 12px;
   line-height: 1.2;
+}
+
+.text-block {
+  color: #fff;
 }
 
 @media screen and (min-width: 1440px) {
@@ -2136,6 +2151,7 @@ strong {
   }
 
   .cta-grid {
+    grid-row-gap: 20px;
     padding-top: 10px;
     padding-bottom: 42px;
   }
@@ -2207,6 +2223,10 @@ strong {
   .image-fit {
     height: 300px;
   }
+
+  .center-mobile {
+    text-align: center;
+  }
 }
 
 #w-node-_72f91142-315a-0239-c570-da707c596f2c-e03712e2 {
@@ -2222,7 +2242,7 @@ strong {
   justify-self: end;
 }
 
-#w-node-_57b74c94-eaa0-188e-a8fd-365de7a3968f-e7a3968e, #w-node-_57b74c94-eaa0-188e-a8fd-365de7a3969c-e7a3968e, #w-node-_57b74c94-eaa0-188e-a8fd-365de7a396a9-e7a3968e, #w-node-_1219d3a2-6615-05ba-2cf8-b1344388cf9a-e7a3968e {
+#w-node-_57b74c94-eaa0-188e-a8fd-365de7a3968f-e7a3968e, #w-node-_57b74c94-eaa0-188e-a8fd-365de7a3969c-e7a3968e, #w-node-_57b74c94-eaa0-188e-a8fd-365de7a396a9-e7a3968e, #w-node-_1219d3a2-6615-05ba-2cf8-b1344388cf9a-e7a3968e, #w-node-_7d1e1f43-c494-ad5e-0f7d-64d28fdd7688-e7a3968e {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
